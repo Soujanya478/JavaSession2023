@@ -1,0 +1,94 @@
+Method Concepts
+
+Class Variables are also called as instance variables 
+
+Method cannot be created inside the method. We can a method from another method --> 
+Hence methods are independent --> Parallel to each other
+
+3 types of methods 
+	 a. No return and no input --> Eg: URLS calling
+	 b. No input and some return
+	 c. Some input and some return
+	 
+Return protocols:
+
+  a. Returns are not allowed - Only one return can be possible 
+  b. return should be last statement in the method
+  c. After return, code will be dead code/unreachable code
+  d. We can directly return the value without storing it in any variable
+  
+  Parameter --- input parameters in methods and arguments -- expressed as values
+  
+  
+  
+  
+  Inheritance :
+  
+  
+  Static Method can be inherited but not overriden. 
+  
+ // Child Class Object with child class reference :
+  
+  1. Can access all child class methods
+  2. Can access all overriden methods
+  3. Can access all inherited methods
+  4. can access all parent class methods
+  5. can access all static methods with child class name (if the method existing in parent class and child class, child class definition is called)
+   
+  
+  
+ // Child class object with parent class reference :
+  
+  1. Can access all inherited methods
+  2. Can access all overridden methods
+  3. can access all parent class methods
+  4. can access all static methods created in parent (if the method existing in parent class and child class, child class definition is called)
+  5. Cannot access child class individual methods
+  
+  
+  //Parent class Object with parent class reference : // Top Casting / up casting
+  
+  1. Can access all the methods 
+  2. Can access all the static methods
+  3. No access to child class methods
+  4. Overriden method in child class will be called. 
+  
+  //Parent class object with child class reference : //downcasting
+  
+  1. Downcasting is not possible in java. It allows downcasting in compile time but not in runtime. Throws classcast exception
+  
+  We cannot convert normal method into static method in child class
+  
+  Run time polymorphism / Dynamic polymorphism / method over riding
+  
+  //If method is overriden, compiler will be not known which method to be called.. 
+  Hence run time will be taken care of which method to be called
+  
+  Private methods cannot be overriden
+  static methods cannot be overriden but inherited and can be declared in child class --> Method hiding
+  final method cannot be overriden but inherited and cannot be declared
+  final class cannot be parent class. final class cannot be extended
+  
+  final and static method cannot be overriden or inherited
+  
+  final is for
+  
+  constant values
+  prevent method overriding and prevent inheritance
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

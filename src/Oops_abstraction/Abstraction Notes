@@ -1,0 +1,44 @@
+Interface 
+when the method doesnot have method body
+only method declaration
+
+
+Topcasting is allowed - child class object will be given to parent interface reference
+Downcasting is not allowed at compile time as well because we cannot create the object for interface
+
+Interface cannot be final because it has to be implemented in other class.. that leads to override the method. Final cannot be overriden
+Abstract method cannot be final because it has to be implemented in child class
+No private methods allowed - overriden not possible
+Interface cannot be static
+We cannot create constructor of interface
+
+Abstraction -- > Hiding the implementation
+Encapsulation --> Hiding the data members.. Private data is hidden and this can be accessed through public setter and getter methods or public methods
+Abstract methods can be overloaded in interface 
+
+interface variables are default final and static 
+interface methods are default abstract 
+abstract methods cannot be static
+
+We can call interface variables with interface name
+we cannot call static methods with interface name
+
+Interface to interface extends
+Inteface to class - Implements
+
+Interface can have overridden method from interface and eventually child class will implement by overriding
+
+Interface cannot be child of class
+
+Abstract class can be
+0% Abstraction  - no abstract methods
+50% Abstraction - abstract and non abstract methods - Partial abstraction
+100% Abstraction - All abstract methods
+
+
+We cannot create object for abstract class but we can create constructor
+
+Abstract class constructor will be called when child class constructor is called
+
+
+
